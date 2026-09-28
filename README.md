@@ -6,4 +6,4 @@ In this solution we introduced the iterative & recursive methods to solve the pr
 - & because the two first elements are odd numbers depending on this rules: 
     - odd + odd = even
     - even + odd = odd
-  The pattern will be created
+- The pattern will be created
