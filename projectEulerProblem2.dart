@@ -20,10 +20,9 @@ void main() {
   /// odd + odd = even,
   /// even + odd = odd,
   /// The pattern will be created
-  
+
   for (int i = 2; i < fibonacciNumbers.length; i += 3) {
     sum += fibonacciNumbers[i];
   }
-  print(fibonacciNumbers);
   print(sum);
 }
