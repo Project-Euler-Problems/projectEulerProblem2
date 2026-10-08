@@ -4,6 +4,8 @@ List<int> fibonacciNumbersGenerator(int end) {
 
   while (nextFibonacciNumber <= end) {
     fibonacciNumbers.add(nextFibonacciNumber);
+    // Fibbonacci number:
+    // number (n) = number (n-1) + number (n+1)
     nextFibonacciNumber =
         fibonacciNumbers.last + fibonacciNumbers[fibonacciNumbers.length - 2];
   }
